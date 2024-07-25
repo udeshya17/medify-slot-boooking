@@ -1,6 +1,12 @@
 import NavBar from '../components/NavBar/NavBar'
-import { Container, Box } from "@mui/material";
+import { Container, Box, Stack } from "@mui/material";
 import HeroImage from '../components/HeroImage/HeroImage'
+import SearchDoctor from '../components/SearchDoctor/SearchDoctor'
+import IconList from '../components/IconList/IconList'
+import OfferCarousel from '../components/OfferCarousel/OfferCarousel'
+import Specialisation from '../components/Specialisation/Specialisation'
+import Specialists from '../components/Specialists/Specialists';
+import PatientSection from '../components/PatientSection/PatientSection';
 
 function Home(){
     return (
@@ -9,8 +15,30 @@ function Home(){
                 <NavBar />
                 <Container maxWidth="xl">
                     <HeroImage />
-                    </Container>
-      </Box>
+                    <Stack
+                        p={{ xs: 2.5, md: 8 }}
+                        mt={{ xs: -2, md: 0, lg: -6, xl: -10 }}
+                        position="relative"
+                        zIndex={99}
+                        bgcolor="#fff"
+                        borderRadius="15px"
+                        spacing={10}
+                        boxShadow="0 0 12px rgba(0,0,0,0.1)"
+                    >
+                        <SearchDoctor/>
+                        <IconList/>
+                    </Stack>
+                </Container>
+            </Box>
+
+            <OfferCarousel/>
+
+            <Specialisation/>
+
+            <Specialists/>
+
+            <PatientSection/>
+
         </Box>
 
     )

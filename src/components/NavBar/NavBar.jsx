@@ -59,7 +59,7 @@ import {
               <Link>Software for Provider</Link>
               <Link>Facilities</Link>
               <Link to="/my-bookings">
-                <Button variant="contained" sx={{background: '#2AA7FF',width:'140px', height:'40px',borderRadius:'8px'}} disableElevation>
+                <Button variant="contained" sx={{textTransform: 'none',background: '#2AA7FF',width:'130px', height:'40px',borderRadius:'8px'}}>
                   My Bookings
                 </Button>
               </Link>
