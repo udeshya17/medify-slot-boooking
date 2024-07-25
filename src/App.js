@@ -1,10 +1,17 @@
-import Home from '../src/Home/Home'
-import './App.css';
+import { Outlet } from "react-router-dom";
+import { CssBaseline } from "@mui/material";
+import Footer from "./components/Footer/Footer";
+import DownloadApp from "./components/Download/Download";
+// import Home from './Home/Home';
 
 function App() {
   return (
     <div>
-      <Home/>
+      <CssBaseline />
+      <Outlet />
+      {/* <Home/> */}
+      <DownloadApp />
+      <Footer />
     </div>
   );
 }

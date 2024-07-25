@@ -7,6 +7,9 @@ import OfferCarousel from '../components/OfferCarousel/OfferCarousel'
 import Specialisation from '../components/Specialisation/Specialisation'
 import Specialists from '../components/Specialists/Specialists';
 import PatientSection from '../components/PatientSection/PatientSection';
+import Blogs from '../components/Blogs/Blogs';
+import Past from '../components/Past/Past';
+import Faq from '../components/Faq/Faq';
 
 function Home(){
     return (
@@ -32,13 +35,12 @@ function Home(){
             </Box>
 
             <OfferCarousel/>
-
             <Specialisation/>
-
             <Specialists/>
-
             <PatientSection/>
-
+            <Blogs/>
+            <Past/>
+            <Faq/>
         </Box>
 
     )

@@ -16,7 +16,7 @@ export default function HeroSlider() {
                             Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.
                         </Typography>
                         <Link to='/search'>
-                            <Button sx={{textTransform: 'none',background: '#2AA7FF', width:'177px', height:'48px', borderRadius:'8px'}} variant='contained' size="large" disableElevation>
+                            <Button variant='contained' size="large" disableElevation>
                                 Find Centers
                             </Button>
                         </Link>
