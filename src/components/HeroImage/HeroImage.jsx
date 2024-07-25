@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import img from '../../assets/home.webp'
+import img from '../../assets/hero.png'
 import { Box, Stack, Typography, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ export default function HeroSlider() {
                             Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.
                         </Typography>
                         <Link to='/search'>
-                            <Button variant='contained' size="large" disableElevation>
+                            <Button sx={{background: '#2AA7FF', width:'177px', height:'48px', borderRadius:'8px'}} variant='contained' size="large" disableElevation>
                                 Find Centers
                             </Button>
                         </Link>
