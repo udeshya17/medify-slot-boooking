@@ -52,8 +52,8 @@ import {
               pb={{ xs: 4, md: 1 }}
               px={{ xs: 4, md: 0 }}
             >
-              <Link>Find Doctors</Link>
-              <Link to="/search">Hospitals</Link>
+              <Link to="/search">Find Doctors</Link>
+              <Link>Hospitals</Link>
               <Link>Medicines</Link>
               <Link>Surgeries</Link>
               <Link>Software for Provider</Link>
